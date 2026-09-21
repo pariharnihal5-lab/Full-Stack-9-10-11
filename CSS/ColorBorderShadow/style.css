@@ -1,0 +1,47 @@
+body{
+    background-color: bisque;
+}
+.main{
+    background-color: aquamarine;
+    color: blueviolet;
+}
+#card{
+
+    background-color: cornsilk;
+    width: 500px;
+    height: 300px;
+
+    h3{
+        color: olivedrab;
+    }
+}
+ #card p{
+    background-color: blue;
+    color: red;
+    border: 5px solid rgb(1, 3, 1);
+    height: 250px;
+    overflow: auto;
+}
+#clickBtn{
+    background-color: rgb(170, 232, 163);
+   
+  /*  border: 2px solid rgb(38, 146, 16);*/
+    border-color: greenyellow;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 1px gray;
+}
+#clickBtn:hover{
+    background-color: azure;
+    color: rgb(48, 137, 101);
+
+}
+#clickBtn:active{
+    background-color: rgb(149, 228, 31);
+    color: white;
+
+}
+h1{
+    border: 2px solid ;
+}

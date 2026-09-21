@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Task 6:</h1>
+    <fieldset>
+      <img src="img.png" alt="" width="500px" height="500px" ta />
+      
+
+      <table cellpadding="10">
+        <h1>Doctor Application Form</h1>
+        <tr>
+          <td><label for="appointmentdate">Appointment Date</label></td>
+          <td>
+            <input type="date" name="appointmentdate" id="appointmentdate" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="appointmenttime">Appointment Time</label></td>
+          <td>
+            <input type="time" name="appointmenttime" id="appointmenttime" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="name">Name</label></td>
+          <td>
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="First "
+            />
+          </td>
+          <td>
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="Last"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender</label></td>
+          <td>
+            <input type="radio" name="gender" id="Male" value="male" />
+            <span>Male</span>
+            <input type="radio" name="gender" id="female" value="female" />
+            <span>Female</span>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="phone">Phone</label></td>
+          <td><input type="number" name="phone" id="phone" /></td>
+        </tr>
+        <tr>
+          <td><label for="address">Address</label></td>
+          <td>
+            <input type="text" name="city" id="city" placeholder="City" />
+          </td>
+          <td>
+            <input type="text" name="state" id="state" placeholder="State" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="yourquery">Your Query</label></td>
+          <td><textarea name="yourquery" id="yourquery"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="AppointmentType">Appointment Type</label></td>
+          <td>
+            <br /><br />
+            Select which appointment type(s) you require <br />
+
+            <input type="checkbox" name="cervixcheckup" id="cervixcheckup" />
+            <span>Cervix Checkup</span>
+            <br />
+            <input type="checkbox" name="heartcheckup" id="heartcheckup" />
+            <span>Heart Checkup</span>
+            <br />
+            <input type="checkbox" name="Eyecheckup" id="Eyecheckup" />
+            <span>Eye Check-up</span>
+            <br />
+            <input type="checkbox" name="HearingTest" id="HearingTest" />
+            <span>Hearing Test</span>
+            <br /><br /><button>Send</button>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+</body>
+</html>
