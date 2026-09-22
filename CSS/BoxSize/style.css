@@ -1,0 +1,50 @@
+#a{
+    width: 100px;
+    border: 1px  solid  rgb(1, 9, 1) ;
+    
+
+}
+#b{
+width: 50%;
+border: 1px solid   black;
+}
+body{
+    background-color: antiquewhite;
+}
+.d
+{
+    background-color: rgb(130, 247, 253);
+    text-align: center;
+    display: inline-block;
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 25px;
+
+    
+}
+span{
+    display:inline-block ;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+#button{
+    background-color: rgb(130, 235, 253);
+}
+#button:hover{
+    background-color: rgb(123, 249, 241);
+    color: rgb(2, 16, 2);
+}
+#button:active{
+    background-color: rgb(109, 240, 240);
+    color: black;
+}
+#head{
+    background-color: lightpink;
+    border: 2px solid black;
+    text-align: center;
+
+}
