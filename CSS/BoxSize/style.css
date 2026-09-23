@@ -11,6 +11,14 @@ border: 1px solid   black;
 body{
     background-color: antiquewhite;
 }
+#outer{
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    /*gap: 50px;*/
+    justify-content: space-between;
+    align-items: center;
+}
 .d
 {
     background-color: rgb(130, 247, 253);
@@ -19,9 +27,8 @@ body{
     height: 300px;
     width: 200px;
     border: 2px solid black;
-    border-radius: 10px;
-    margin: 25px;
-    padding: 25px;
+    border-radius: 5px;
+    
 
     
 }
