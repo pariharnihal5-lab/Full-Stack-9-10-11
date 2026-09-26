@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #80d9ed;
+}
+
+#head{
+    margin-left: 40%;
+    
+}
+
+.personal-outer {
+    
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  padding: 10px;
+}
+
+  .qualification-grid {
+    display: grid;
+    padding: 20px;
+    grid-template-columns:auto auto auto auto auto auto auto ;
+
+    gap: 8px;
+    align-items: center;
+}
+.language-grid {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    align-items: center;
+}
+.identification-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+.button
+{  margin-left: 50%;
+    
+   background-color: rgb(255, 0, 0);
+    
+}
+legend{
+   margin-left: 10%;
+}
