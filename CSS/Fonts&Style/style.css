@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+
+}
+.heading {
+  font-family: "Edu QLD Hand", cursive;
+  background-color: antiquewhite;
+  font-size: xx-large;
+  font-weight: 900;
+  text-align: center;
+}
+.subheading {
+  font-family: "Oswald", sans-serif;
+  font-size: larger;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.description span {
+  color: rgb(39, 216, 130);
+  font-weight: 400;
+  text-decoration: underline;
+}
+main {
+  margin-top: 10px;
+}
+.pointer-head {
+  font-size: larger;
+  font-style: italic;
+  font-weight: 700;
+}
+ul {
+  margin-left: 30px;
+  list-style: "  △ ";
+}
+#section1 {
+  background-color: bisque;
+}
+#section2 {
+  background-color: cornsilk;
+
+  li:first-letter {
+    font-size: xx-large;
+  }
+  ol {
+    margin-left: 30px;
+    list-style: upper-roman;
+  }
+
+  ol :nth-child(even) {
+    background-color: aqua;
+  }
+  ol :nth-child(odd) {
+    background-color: rgb(9, 255, 124);
+  }
+}
+#section4 {
+    margin-left: 30px;
+  table {
+    border-collapse: collapse;
+  }
+
+  caption {
+    color: #0147f9;
+    font-size: larger;
+    font-weight: 800;
+    font-variant-caps: all-petite-caps;
+  }
+  td,
+  th {
+    border: 1px solid #000;
+    padding: 3px 6px;
+  }
+
+  thead {
+    background-color: #0147f9;
+    color: aliceblue;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #dbeff6;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #b0e5f8;
+  }
+}
+section {
+  padding: 20px;
+}
+footer {
+  background-color: darkblue;
+  color: aliceblue;
+  position: fixed;
+  font-size: large;
+  font-style: italic;
+  bottom: 0;
+  padding: 5px;
+  width: 100vw;
+  text-align: center;
+}
