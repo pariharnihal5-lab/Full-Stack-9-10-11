@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#dabba {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border: 1px solid #000;
+  position: absolute;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: muskan 5s linear 2;
+}
+
+@keyframes muskan {
+  0% {
+    transform: rotateZ(36000deg);
+    top: 0;
+    left: 0;
+    background-color: blue;
+  }
+
+  25% {
+    top: 0;
+    left: 500px;
+    background-color: red;
+  }
+  50% {
+    top: 500px;
+    left: 500px;
+    background-color: green;
+  }
+  75% {
+    top: 500px;
+    left: 0;
+    background-color: yellow;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    background-color: blue;
+  }
+}
