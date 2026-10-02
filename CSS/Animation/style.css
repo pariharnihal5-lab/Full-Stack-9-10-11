@@ -23,16 +23,16 @@
 
   25% {
     top: 0;
-    left: 500px;
+    left: 800px;
     background-color: red;
   }
   50% {
-    top: 500px;
-    left: 500px;
+    top: 800px;
+    left: 800px;
     background-color: green;
   }
   75% {
-    top: 500px;
+    top: 800px;
     left: 0;
     background-color: yellow;
   }
