@@ -40,7 +40,7 @@ console.log(5 == "5");
 console.log(5 === "5");
 // Logical Operators
 
-let age = 20;
+
 let hasId = true;
 
 console.log(age >= 18 && hasId);
@@ -55,20 +55,7 @@ let isLoggedIn = true;
 console.log(!isLoggedIn);
 
 
-// Increment Operator
 
-let score = 10;
-
-score++;
-
-console.log(score);
-
-
-// Pre-Increment
-
-let number = 5;
-
-console.log(++number);
 
 
 // Post-Increment
@@ -149,3 +136,4 @@ let discount = 20;
 let total = (price * quantity) - discount;
 
 console.log(total);
+
