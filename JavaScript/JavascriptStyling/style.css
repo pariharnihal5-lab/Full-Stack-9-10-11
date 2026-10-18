@@ -1,0 +1,13 @@
+.bulb {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 1px solid #000;
+}
+
+.b1 {
+  background-color: yellow;
+}
+.b2 {
+  background-color: rgb(255, 0, 0);
+}
