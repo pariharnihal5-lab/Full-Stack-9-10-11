@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="topbar">
+        <div class="container topbar-content">
+          <div>
+            <span>✉</span>
+            <a href="mailto:clinic247@gmail.com">clinic247@gmail.com</a>
+          </div>
+
+          <div>
+            <span>☎</span>
+            <a href="tel:+6565656565">+91 6565656565</a>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar">
+        <div class="container nav-container">
+          <a href="#home" class="logo"> Clinic </a>
+
+          <button
+            class="mobile-menu-btn"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-controls="navMenu"
+            aria-expanded="false"
+          >
+            ☰
+          </button>
+
+          <ul class="nav-menu" id="navMenu">
+            <li>
+              <a href="./index.html" class="active">Home</a>
+            </li>
+
+            <li>
+              <a href="./about.html">About</a>
+            </li>
+
+            <li>
+              <a href="./dept.html">Departments</a>
+            </li>
+
+            <li>
+              <a href="./service.html">Services</a>
+            </li>
+
+            <li>
+              <a href="./doctor.html">Doctors</a>
+            </li>
+
+            <li class="dropdown">
+              <a href="#testimonials"> More Pages? <span>⌄</span> </a>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#departments">Department Details</a>
+                </li>
+
+                <li>
+                  <a href="#services">Service Details</a>
+                </li>
+
+                <li>
+                  <a href="#appointment">Appointment</a>
+                </li>
+
+                <li>
+                  <a href="#testimonials">Patient Stories</a>
+                </li>
+
+                <li>
+                  <a href="#faq">FAQs</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#testimonials"> Dropdown <span>⌄</span> </a>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="">Dropdown1</a>
+                </li>
+
+                <li>
+                  <a href="">DeepDropdown</a>
+                </li>
+
+                <li>
+                  <a href="">Dropdown2</a>
+                </li>
+
+                <li>
+                  <a href="">Dropdown3</a>
+                </li>
+
+                <li>
+                  <a href="">Dropdown4</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="./faq.html">Contact</a>
+            </li>
+          </ul>
+
+          
+        </div>
+      </nav>
+    </header>
+
+    <section class="section appointment" id="appointment">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label"> APPOINTMENT </span>
+
+          <h2>Book Your Appointment</h2>
+
+          <p>
+            Schedule a consultation with one of our experienced medical
+            specialists.
+          </p>
+        </div>
+
+        <form
+          class="appointment-form"
+          id="appointmentForm"
+          action="#"
+          method="post"
+        >
+          <div class="form-group">
+            <label for="name"> Full Name </label>
+
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Your name"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email"> Email </label>
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Your email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone"> Phone </label>
+
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+              placeholder="Your phone"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="date"> Preferred Date </label>
+
+            <input type="date" id="date" name="date" />
+          </div>
+
+          <div class="form-group">
+            <label for="doctor"> Doctor </label>
+
+            <select id="doctor" name="doctor">
+              <option value="">Select Doctor</option>
+
+              <option value="amanda-foster">Dr. Amanda Foster</option>
+
+              <option value="marcus-johnson">Dr. Marcus Johnson</option>
+
+              <option value="rachel-williams">Dr. Rachel Williams</option>
+
+              <option value="david-chen">Dr. David Chen</option>
+
+              <option value="victoria-torres">Dr. Victoria Torres</option>
+
+              <option value="benjamin-lee">Dr. Benjamin Lee</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message"> Message </label>
+
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Describe your concern"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">
+            Request Appointment
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="./index.html" class="footer-logo"> Clinic </a>
+
+          <p>
+            Crafting exceptional digital experiences through thoughtful design
+            and innovative solutions that elevate your brand presence.
+          </p>
+
+          <p>123 Healthcare Boulevard, New York, NY 10012</p>
+
+          <p>+1 (555) 987-6543</p>
+
+          <p>hello@clinic.com</p>
+        </div>
+
+        <div>
+          <h4>Studio</h4>
+
+          <a href="">Our Story</a>
+          <a href="">Design Process</a>
+          <a href="">Portfolio</a>
+          <a href="">Case Study</a>
+          <a href="">Award</a>
+        </div>
+
+        <div>
+          <h4>Services</h4>
+
+          <a href="./dept.html#cardiology">Brand Identity</a>
+          <a href="./dept.html#neurology">Web Design</a>
+          <a href="./dept.html#pediatrics">Mobile Apps</a>
+          <a href="./dept.html#orthopedics">Digital Strategy</a>
+          <a href="./service.html#dermatology">Consultation</a>
+        </div>
+
+        <div>
+          <h4>Resources</h4>
+
+          <a href="./service.html">Design Blog</a>
+          <a href="./faq.html">Style Guide</a>
+          <a href="./faq.html">Free Assist</a>
+          <a href="./testimonials.html">Tutorials</a>
+          <a href="./appointment.html">Inspiration</a>
+        </div>
+
+        <div>
+          <h4>Connect</h4>
+
+          <a href="./index.html">Start project</a>
+          <a href="./index.html">Schedule Call</a>
+          <a href="tel:+15546734567">Join Newsletter</a>
+          <a href="mailto:email@gmail.com">Follow Updates</a>
+          <a href="tel:+91 8787878789">Partnership</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <p>©  All Rights Reserved.</p>
+
+          <div>
+            <a href="#contact"> Privacy Policy </a>
+
+            <a href="#contact"> Terms of Service </a>
+
+            <a href="#contact"> Cookie Policy </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
