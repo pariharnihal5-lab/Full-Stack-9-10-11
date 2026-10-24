@@ -12,13 +12,10 @@ function addTask() {
   BUTTON.textContent = "Delete";
   BUTTON.onclick = () => LI.remove();
 
-  
-  
-
   LI.appendChild(SPAN);
   LI.appendChild(BUTTON);
 
   document.getElementById("taskList").appendChild(LI);
 
   document.getElementById("taskInput").value = "";
-} 
+}
