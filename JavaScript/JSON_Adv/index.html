@@ -2,10 +2,86 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>User Registration Form</title>
 </head>
 <body>
-    
+
+    <h1>User Registration Form</h1>
+
+    <form id="registrationForm">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            minlength="8"
+            maxlength="20"
+        >
+
+        <br><br>
+
+        <button type="button" id="checkEmail">Check Email</button>
+        <button type="button" id="checkPassword">Check Password</button>
+        <button type="submit">Register</button>
+    </form>
+
+    <p id="emailResult"></p>
+    <p id="passwordResult"></p>
+    <p id="formResult"></p>
+
+    <script>
+        const form = document.getElementById("registrationForm");
+        const emailInput = document.getElementById("email");
+        const passwordInput = document.getElementById("password");
+
+        document.getElementById("checkEmail").addEventListener("click", function () {
+            if (emailInput.checkValidity()) {
+                document.getElementById("emailResult").textContent =
+                    "Email field is valid.";
+            } else {
+                document.getElementById("emailResult").textContent =
+                    "Please enter a valid email address.";
+                emailInput.reportValidity();
+            }
+        });
+
+        document.getElementById("checkPassword").addEventListener("click", function () {
+            const password = passwordInput.value;
+
+            if (password.length >= 8 && password.length <= 20) {
+                document.getElementById("passwordResult").textContent =
+                    "Password length is valid.";
+            } else {
+                document.getElementById("passwordResult").textContent =
+                    "Password must contain between 8 and 20 characters.";
+            }
+        });
+
+        form.addEventListener("submit", function (event) {
+            if (!form.checkValidity()) {
+                event.preventDefault();
+
+                document.getElementById("formResult").textContent =
+                    "Please complete all fields correctly.";
+            } else {
+                event.preventDefault();
+
+                document.getElementById("formResult").textContent =
+                    "Registration successful! All fields passed validation.";
+            }
+        });
+    </script>
+
 </body>
 </html>
